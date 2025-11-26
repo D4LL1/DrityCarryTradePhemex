@@ -1,5 +1,5 @@
 Crypto Funding Rate Arbitrage Bot
-A Python-based trading bot that capitalizes on cryptocurrency funding rate arbitrage opportunities by identifying and trading perpetual swap contracts with extreme funding rates on Phemex exchange.
+
 🎯 Strategy Overview
 This bot implements a funding rate mean reversion strategy by:
 
