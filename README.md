@@ -42,9 +42,7 @@ pythonphemex = ccxt.phemex({
     'secret': 'YOUR_SECRET_KEY',
     'enableRateLimit': True
 })
-Usage
-python# Run the main strategy
-python funding_arbitrage_bot.py
+
 ⚠️ Risk Disclaimer
 
 High Risk: Cryptocurrency trading involves substantial risk of loss
