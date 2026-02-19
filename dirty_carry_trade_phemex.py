@@ -2,8 +2,8 @@ import ccxt
 import pandas as pd
 
 api_keys = { "phemex": 
-    { "apiKey": "179791ab-faf6-483d-9a21-eecbc50f8164",
-      "secret": "YyWYEx9pRDLjJfzg4Rm4dKYYzobL03WhojlUmFXsLR1mNDZiNmY4OC1hMWYzLTQ0N2EtYTZhNy1hMzkzYzExNTg3M2M",
+    { "apiKey": "#",
+      "secret": "#",
         "enableRateLimit": True,
           "options": {"defaultType": "swap"}
 }}
@@ -294,4 +294,5 @@ def close_all_trades():
     cancel_all_orders()
 
     print("\nSetting stop-loss and take-profit orders...")
+
     set_stop_loss_take_profit_for_positions()
